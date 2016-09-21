@@ -37,14 +37,14 @@ mysql_close($mysql);
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="10;url=<?php echo($url); ?>/<?php echo($id); ?>" />
-<link rel="stylesheet" type="text/css" href="./style.css">
-<link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta http-equiv="refresh" content="10;url=<?php echo($url); ?>/<?php echo($id); ?>" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
 <body>
 
-<p class="ctext"><a href="<?php echo($url); ?>/<?php echo($id); ?>"><?php echo($url); ?>/<?php echo($id); ?></a></p>
-<p class="ctext"><input size="26" type="text" value="<?php echo($url); ?>/<?php echo($id); ?>" onclick="javascript:this.focus();this.select();" readonly="true" /></p>
+    <p class="ctext"><a href="<?php echo($url); ?>/<?php echo($id); ?>"><?php echo($url); ?>/<?php echo($id); ?></a></p>
+    <p class="ctext"><input size="26" type="text" value="<?php echo($url); ?>/<?php echo($id); ?>" onclick="javascript:this.focus();this.select();" readonly="true" /></p>
 
 </body>
 </html>
